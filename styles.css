@@ -1,0 +1,751 @@
+
+/*navbar*/
+
+.navbar {
+	padding: 1rem 2rem;	
+}
+
+.navbar img {
+	width: 150px;
+}
+
+.navbar .btn {
+	padding: 1rem 1.2rem;
+	border-radius: 5rem;
+	font-size: 0.8rem;
+	background: #FF0072;
+	color: #fff;
+	font-weight: bold;
+}
+/*navbar ends*/
+
+/*hero section*/
+.hero {
+	background: url("images/image-03.png");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.hero .hero__text {
+	align-self:center;
+}
+
+.hero .hero__text .head {
+	font-size: 3.1rem;
+	font-weight: bold;
+}
+
+.hero .hero__text .subtext {
+	font-size: 1.2rem;
+}
+
+.hero .hero__text .cta {
+	padding: 1rem 1.2rem;
+	border-radius: 5rem;
+	font-size:0.8rem;
+	background: #FF0072;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 3rem;
+}
+
+.hero .hero__img {
+	
+}
+
+.hero .hero__img img {
+	width: 100%;
+}
+
+/*hero section ends*/
+
+/*testimonials starts*/
+.testimonials {
+	margin: 5rem auto;
+}
+
+.testimonials .container {
+	background-color: blue;
+	padding: 4rem 1rem;
+	border-radius: 3rem;
+	margin-bottom:4rem;
+}
+
+.testimonials .testimonials__head{
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.testimonials .testimonials__head h2{
+	color: #fff;
+	font-size: 2.5rem;
+	position: relative;
+}
+
+.testimonials .testimonials__head h2:after{
+	content: "";
+    position:absolute;
+	width:60px;
+	height:2px;
+	bottom:-1rem;
+	left:47%;
+    border-bottom:5px solid #fff;
+}
+
+
+.testimonials .testimonials__profile{
+	color: #fff;
+	text-align: center;
+}
+
+.testimonials .testimonials__profile img{
+	width: 30%;
+	border-radius: 50%; 
+	margin-bottom: 1rem;
+}
+
+.testimonials .testimonials__profile h2{
+	font-size: 1.5rem;
+}
+
+.testimonials .testimonials__profile p{
+	font-size: 1rem;
+}
+
+.testimonials .testimonials__text{
+	color: #fff;
+	padding: 1rem;
+	padding-right: 5rem;
+	align-self: center;
+
+}
+
+.testimonials .testimonials__text p{
+	font-size: 1.2rem
+}
+
+.button_testimonial{
+	margin-top:0.9rem;
+	display: flex;	
+}
+
+.testimonials .cta{
+	padding: 1rem 1.2rem;
+	border-radius: 5rem;
+	font-size:0.8rem;
+	background: #FF0072;
+	color: #fff;
+	font-weight: bold;
+	margin:auto;
+}
+
+
+
+
+/*testimonials ends*/
+
+
+/*offerings starts*/
+.offerings {
+	background: url("back_G/Group.png");
+	background-size: cover;
+	padding: 3rem 1rem;
+	margin: 5rem auto;
+	/*background:teal;*/
+}
+
+.offerings .texthead{
+	text-align:center;
+	margin-bottom:2rem;
+}
+
+.offerings .offering {
+	padding:0.5rem 1.5rem;
+	margin-left:2rem;
+	background:white;
+	border-radius:0.5rem;
+}
+
+.container .offering {
+	padding:1rem 1rem;
+}
+
+.offering #first{
+   margin-bottom:0rem;
+}
+
+.container #blue{
+	background-color:blue;
+}
+
+.container #blue .offerings__info h2{
+	color:white;
+}
+
+
+.container #blue .offerings__info p{
+	color:white;
+}
+
+.container #blue .offerings__pricing span.before{
+	color:white;
+}
+
+.container #blue .offerings__pricing{
+	margin-top:0.9rem;
+}
+
+.container #green .offerings__pricing{
+	margin-top:6rem;
+}
+
+.offerings .offerings__icon{
+	margin-bottom: 1rem;
+}
+
+.offerings .offerings__icon img{
+	width:50px;
+}
+
+.offerings .offerings__pricing{
+	margin-top:4.5rem;
+}
+
+
+.offerings .offerings__info{
+	margin-bottom: 3rem;
+}
+
+.offerings .offerings__info h2{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.offerings .offerings__pricing span.badge {
+	background: #FF0072;
+	color: #fff;
+}
+
+.offerings .offerings__pricing span.before {
+	text-decoration: line-through;
+	color:black;
+	margin-top:1rem;
+}
+
+.offerings .offerings__pricing .price{
+	color: #FF0072;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+
+/*Cogneasy bmc starts*/
+
+.get_help{
+	/*background-color:teal;*/
+	padding-bottom:3rem;
+}
+
+.get_help .container{
+	background-image:url("back_G/pinkbag.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	border-radius:1.5rem;
+	margin-top:3rem;
+	margin-bottom:2rem;
+	padding:4rem;
+	/*margin:auto;*/
+}
+
+
+.get_head{
+	font-size:2rem;
+	font-weight: bold;
+	text-align:center;
+}
+
+.get_head span{
+	display:block;
+}
+
+
+.get_bmc{
+    align-self:center;
+
+}
+
+.get_bmc p{
+	font-size:1rem;
+}
+
+.get_img img{
+	width:80%;
+	margin-left:3rem;
+}
+
+/* Cogneasy bmc End**/
+
+
+
+/*Get help starts*/
+
+.case_help{
+	/*background-color:white;*/
+	padding-bottom:3rem;
+}
+
+.case_help .container{
+	background-image:url("back_G/Rectangle.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	border-radius:1.5rem;
+	margin-bottom:5rem;
+	padding:4rem;
+}
+
+.bmc_head{
+	font-size:2rem;
+	font-weight: bold;
+	text-align:center;
+}
+
+
+.cogneasy_bmc{
+    align-self:center;
+}
+
+.cogneasy_bmc p{
+	font-size:1rem;
+}
+
+.cogneasy_img img{
+	width:80%;
+}
+
+/*Get help End*/
+	
+
+
+/*Get Yours start*/
+	
+.get_free {
+	background-image:url("back_G/pinklet.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	border-radius:0px;
+}
+
+.get_free .container{	
+	padding-bottom:0rem;
+}
+
+
+.yours_bmc{
+	align-self:center;
+	margin-left:2rem;
+	padding-left:0rem;
+	/*padding-right:0rem;*/
+}
+
+
+.yours_bmc p{
+	font-size:1rem;
+}
+
+.yours_bmc .freedom{
+	padding-right:1rem;
+	}
+
+.yours_img img{
+	width:100%;
+	margin-left:0rem;
+	margin-right:0rem; 
+	margin-down:10rem;
+}
+
+.get_free .yours_bmc .cta{
+	padding: 1rem 1.2rem;
+	border-radius: 5rem;
+	font-size: 0.8rem;
+	background: #FF0072;
+	color: #fff;
+	font-weight: bold;
+	margin:auto;
+}
+/*Get Yours End
+
+
+/*Footer section starts*/
+	
+.footer{
+	background-color:#0C1930;
+	padding:3rem 5rem;
+}
+
+
+/*.footer_talk{
+    background-color:white;
+}*/
+
+
+.enquiry{
+	/*background-color:teal;*/
+	align-self:center;
+}
+
+
+.enquiry h2{
+	font-size: 1.5rem;
+	margin-bottom:1rem;
+	font-weight: bold;
+	color:white;
+}
+
+.enquiry p{
+	font-size:1rem;
+	/*margin-bottom:1.2rem*/;
+	color:white;
+}
+
+.enquiry .social .insta{
+	margin-right:1rem;
+}
+
+.promise span{
+	display:block;
+}
+
+.location span{
+	display:block;
+}
+.enquiry .social img{
+	width:13px;
+}
+
+.enquiry .social .boot{
+	margin-left:0.2rem;
+}
+
+.phone_no{
+	margin-bottom:0rem;
+	margin-top: 2rem;
+}
+
+.ask{
+	margin-bottom:0rem;
+	margin-top: 2rem;
+}
+
+.address{
+	margin-bottom:0rem;
+	margin-top: 2rem;
+}
+
+#follow{
+	margin-bottom:0rem;
+	margin-top: 2rem;
+}
+
+.form_enquiry{
+	align-self:center;
+}
+
+.footer .bizplan{
+	font-size:1rem;
+	color: white;
+	text-align:center;
+}
+
+.footer hr{
+	border: 1px solid white;
+	width:90%;
+	align-self:center;
+	margin-top:100px;
+
+}
+
+.form_enquiry .form-label{
+	color: white;
+}
+
+#exampleFormControlTextarea1{
+	height:130px;
+	margin-bottom:2rem;
+}
+
+input[type=submit]{
+     background-color:#FF0072;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    width:100%;
+}
+
+ /* Footer section End*/
+
+
+
+
+
+
+/* From screen sizes below 600px*/
+@media all and (max-width:600px) {
+	.navbar {
+		padding: 1.5rem .1rem;
+	}
+
+	.navbar img {
+		width: 120px;
+	}
+
+	.navbar .btn {
+		padding: .7rem 1.2rem;
+		border-radius: 5rem;
+		font-size: .75rem;
+	}
+
+	/*navbar ends*/
+
+
+	/*hero section*/
+	.hero {
+
+		/*background: none*/	
+	}
+
+	.hero .hero__text {
+		padding: 3rem 1.5rem;
+	}
+
+	.hero .hero__text .head {
+		font-size: 2rem;
+	}
+
+	.hero .hero__text .subtext {
+		font-size: 1.2rem;
+	}
+
+	.hero .hero__text .cta {
+		padding: .7rem 1.2rem;
+		border-radius: 5rem;
+		font-size: .75rem;
+		margin-top: 1rem; 
+	}
+
+	.hero .hero__img {
+		/*display: none;*/
+	}
+
+	.hero .hero__img img {
+		width: 100%;
+	}
+
+	/*hero section ends*/
+
+
+	/*Testimonials section starts*/
+
+	.testimonials {
+	margin: 1rem auto;
+}
+
+
+.testimonials .testimonials__text{
+	margin-right:0rem;
+	padding-left:1rem;
+	padding-right:1rem;
+}
+
+.testimonials .testimonials__text p{
+	font-size: 1.1rem;
+	text-align:center;
+}
+
+
+.testimonials .cta{
+	padding: .7rem 1.2rem;
+	border-radius: 5rem;
+	font-size: .75rem;
+	margin-top: 1rem; 
+}
+
+ /* Testimonials section end*/
+
+
+	/*Offering Section Start*/
+
+.offerings .offering {
+	padding:2rem 1.5rem;
+	margin-right:2rem;
+	margin-bottom:2rem;
+}
+
+
+/*  Offering Sction Ends*/
+
+
+	/*Gethelp start*/
+
+	.get_help{
+	background-color:white;
+	margin-right:0px;
+}
+    .get_help .container{
+	background-image:url("back_G/pinkbag.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	border-radius:1.5rem;
+	/*margin-top:3rem;*/
+	/*padding:1rem 3.5rem 1rem 2rem;*/*/
+}
+
+
+.get_head{
+	font-size:1.5rem;
+	padding-bottom:2rem;
+}
+
+.get_bmc{
+	margin-right:0.5rem;
+    padding-right:0.5rem;
+
+}
+
+
+.get_bmc h2{
+	font-size:1.2rem;
+}
+
+.get_bmc p{
+	width:260px;
+	text-align:left;
+	font-size:1rem;
+}
+
+.get_img img{
+	display: none;
+	/*width:100%;
+	margin:0rem;*/
+}
+
+/*Gethelp End*/
+
+/*Case study starts*/
+
+/*.case_study{
+	background-color:white;
+	padding-bottom:3rem;
+}*/
+
+.get_help .container{
+	background-image:url("back_G/pinkbag.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	border-radius:1.5rem;
+	/*margin:2rem 2rem;
+	padding:1rem 3rem 1rem 2rem;
+*/
+}
+
+/*.bmc_head{
+	font-size:2rem;
+	font-weight: bold;
+	text-align:center;
+}*/
+
+
+.cogneasy_bmc{
+    margin-right:1rem;
+    padding-right:1rem;
+}
+
+.cogneasy_bmc h2{
+	font-size:1.2rem;
+}
+
+.cogneasy_bmc p{
+	width:250px;
+	text-align:left;
+	font-size:1rem;
+}
+
+.cogneasy_img img{
+	display:none;
+	/*width:100%;
+	margin:0rem;*/
+}
+
+/*Casestudy End*/
+
+/*Get Yours start*/
+
+.Get_yours{
+	/*background-color:blue;*/
+	margin:4rem 3rem;
+	margin-bottom:0rem;
+	margin-top:5rem;
+	padding-top:0rem;
+	padding-bottom:0rem;
+}
+
+.yours_bmc{
+	padding:1rem 0rem 1rem 0rem;
+}
+
+.yours_bmc p{
+	width:300px;
+	text-align:left;
+	font-size:1rem;
+}
+
+
+.Get_yours .yours_bmc .cta{
+	padding: .7rem 1.2rem;
+	border-radius: 5rem;
+	font-size: .75rem;
+	margin-top: 1rem; 
+}
+
+/**/
+
+.yours_img img{
+	display: none; 
+}
+
+.get_help{
+	padding-bottom:0;
+}
+
+
+/* Footer Section*/
+
+.footer{
+	padding:3rem;
+}
+.enquiry{
+	/*background-color:teal;*/
+	padding:1rem 0rem 0rem 1rem;
+	margin-bottom:2rem;
+}
+
+
+.enquiry .promise span{
+	display:inline;
+}
+
+/*.form_enquiry{
+	margin-left:2rem;
+	padding-right:3rem;
+}*/
+
+.form_enquiry .form-control	{
+	padding-right:6rem;
+	padding-left:2rem;
+}
+
+}
